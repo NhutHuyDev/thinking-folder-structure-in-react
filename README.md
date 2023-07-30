@@ -67,13 +67,14 @@ Theo ý kiến cá nhân hiện tại, không cố định, thay đổi theo d�
 │  │  ├─ brand
 │  │  ├─ img
 │  │  ├─ svg
+│  │  ├─ global.css
 │  ├─ components
 │  │  ├─ Button
 │  │  │  ├─ Button.css
 │  │  │  ├─ Button.jsx
-│  ├─ configs
+│  ├─ configs 
 │  ├─ context (or redux)
-│  ├─ data 
+│  ├─ data (optional)
 │  ├─ hooks 
 │  ├─ layouts 
 │  ├─ pages
@@ -81,7 +82,7 @@ Theo ý kiến cá nhân hiện tại, không cố định, thay đổi theo d�
 │  │  │  ├─ components
 │  │  │  ├─ Home.jsx
 │  │  ├─ Root.jsx
-│  ├─ redux (or context)
+│  ├─ redux (or context)                        
 │  │  ├─ reducers
 │  │  ├─ selectors
 │  │  ├─ store.js
@@ -89,9 +90,8 @@ Theo ý kiến cá nhân hiện tại, không cố định, thay đổi theo d�
 ├─ App.js
 ├─ index.js
 ├─ .gitignore
-├─ .gitignore
 ├─ package-lock.json
-└─ package.json  -->
+└─ package.json   -->
 
 ### Tham khảo
 - https://react.dev/learn/thinking-in-react
