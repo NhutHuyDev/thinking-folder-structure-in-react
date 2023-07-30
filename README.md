@@ -58,10 +58,11 @@ Theo ý kiến cá nhân hiện tại, không cố định, thay đổi theo d�
 - **src/redux** (with redux vs redux toolkit): chứa cấu hình redux, tương tác APIs
 
 ### Projecy tree:
-![alt text](img/project-tree.png "project-tree.png")
+![alt text](img/project-tree-update.png "project-tree-update.png")
 <!-- example-structure
 ├─ node_modules
 ├─ public
+├─ src
 │  ├─ assets
 │  │  ├─ brand
 │  │  ├─ img
@@ -81,7 +82,6 @@ Theo ý kiến cá nhân hiện tại, không cố định, thay đổi theo d�
 │  │  │  ├─ Home.jsx
 │  │  ├─ Root.jsx
 │  ├─ redux (or context)
-│  │  ├─ actions
 │  │  ├─ reducers
 │  │  ├─ selectors
 │  │  ├─ store.js
@@ -91,7 +91,7 @@ Theo ý kiến cá nhân hiện tại, không cố định, thay đổi theo d�
 ├─ .gitignore
 ├─ .gitignore
 ├─ package-lock.json
-└─ package.json -->
+└─ package.json  -->
 
 ### Tham khảo
 - https://react.dev/learn/thinking-in-react
