@@ -57,6 +57,41 @@ Theo ý kiến cá nhân hiện tại, không cố định, thay đổi theo d�
 - **src/context** (without redux vs redux toolkit): chứa cấu hình các gobal state, tương tác APIs 
 - **src/redux** (with redux vs redux toolkit): chứa cấu hình redux, tương tác APIs
 
+### Projecy tree:
+example-structure
+├─ node_modules
+├─ public
+│  ├─ assets
+│  │  ├─ brand
+│  │  ├─ img
+│  │  ├─ svg
+│  ├─ components
+│  │  ├─ Button
+│  │  │  ├─ Button.css
+│  │  │  ├─ Button.jsx
+│  ├─ configs
+│  ├─ context (or redux)
+│  ├─ data 
+│  ├─ hooks 
+│  ├─ layouts 
+│  ├─ pages
+│  │  ├─ Home
+│  │  │  ├─ components
+│  │  │  ├─ Home.jsx
+│  │  ├─ Root.jsx
+│  ├─ redux (or context)
+│  │  ├─ actions
+│  │  ├─ reducers
+│  │  ├─ selectors
+│  │  ├─ store.js
+│  ├─ utils
+├─ App.js
+├─ index.js
+├─ .gitignore
+├─ .gitignore
+├─ package-lock.json
+└─ package.json
+
 ### Tham khảo
 - https://react.dev/learn/thinking-in-react
 - https://legacy.reactjs.org/docs/faq-structure.html
